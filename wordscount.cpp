@@ -11,7 +11,9 @@ int main(){
 	system("color E0");
 	char ch = 'a';
 	int word, letter;
+	string phrase;
 	cout << "Enter a phrase: ";
+	cin>>phrase;
 	while(ch != '\r'){
 
 		ch = getche();
